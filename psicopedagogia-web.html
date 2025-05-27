@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoyo Psicopedagógico Integral</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #fceabb, #f8b500, #e36414, #e76f51, #ffafcc);
+    }
+    .rainbow-header {
+      background: linear-gradient(to right, #f94144, #f3722c, #f9c74f, #90be6d, #43aa8b, #577590);
+      color: white;
+    }
+    .animate-banner {
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translatey(0px); }
+      50% { transform: translatey(-10px); }
+      100% { transform: translatey(0px); }
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+  <header class="rainbow-header p-6">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Apoyo Psicopedagógico Integral</h1>
+      <p class="text-sm">Conectando con estudiantes y familias para potenciar el aprendizaje</p>
+    </div>
+  </header>
+  <section class="flex justify-center mt-6 animate-banner">
+    <img src="https://cdn.pixabay.com/photo/2017/01/31/18/38/children-2022453_1280.png" alt="Maestra con niños felices" class="w-1/2 md:w-1/4">
+  </section>
+  <section class="py-12 container mx-auto">
+    <h2 class="text-2xl font-semibold mb-6 text-center">Servicios Ofrecidos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Nivelación y Refuerzo Escolar</h3>
+        <p>Apoyo individual para estudiantes con dificultades académicas en distintas áreas del conocimiento.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Orientaciones y Charlas para Padres</h3>
+        <p>Espacios de encuentro para entregar herramientas educativas a las familias.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Talleres de Apoyo en Casa</h3>
+        <p>Actividades y estrategias para acompañar el aprendizaje en el hogar de forma efectiva.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-bold text-xl mb-2">Rutinas y Habilidades Sociales</h3>
+        <p>Orientación para establecer rutinas post-colegio y fomentar habilidades en entornos sociales.</p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-blue-100 py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-4">Soporte Online</h2>
+      <p class="mb-6">Conéctate conmigo de forma remota para sesiones individuales o charlas grupales.</p>
+      <a href="mailto:psicopedagogia.tuemail@gmail.com" class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800">Solicitar sesión online</a>
+    </div>
+  </section>
+  <section class="py-12 container mx-auto">
+    <h2 class="text-2xl font-semibold mb-6 text-center">Contáctame</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto bg-white p-6 rounded shadow">
+      <div class="mb-4">
+        <label class="block mb-2 font-bold" for="name">Nombre</label>
+        <input class="w-full p-2 border border-gray-300 rounded" type="text" name="name" id="name" required>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 font-bold" for="email">Correo Electrónico</label>
+        <input class="w-full p-2 border border-gray-300 rounded" type="email" name="email" id="email" required>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 font-bold" for="message">Mensaje</label>
+        <textarea class="w-full p-2 border border-gray-300 rounded" name="message" id="message" rows="5" required></textarea>
+      </div>
+      <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800" type="submit">Enviar</button>
+    </form>
+  </section>
+  <div class="fixed bottom-6 right-6">
+    <a href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-14 h-14">
+    </a>
+  </div>
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Apoyo Psicopedagógico Integral. Todos los derechos reservados.</p>
+      <p>Email: psicopedagogia.tuemail@gmail.com</p>
+    </div>
+  </footer>
+</body>
+</html>
